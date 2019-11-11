@@ -13,7 +13,9 @@ def monopoly_with_second_tier
   # complexity.
   
   monopoly = {
-    railroads: pieces: Hash.new
+    railroads: {
+      pieces: Hash.new
+    }
   }
 end
 end
