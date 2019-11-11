@@ -35,8 +35,8 @@ def monopoly_with_third_tier
         :four_pieces_owned => 200
       },
       :names => {
-        :one => "name1",
-        :two => "name2",
+        :reading_railroad => Hash.new,
+        :two => Hash.new,
         :three => "name3",
         :four => "name4"
       }
