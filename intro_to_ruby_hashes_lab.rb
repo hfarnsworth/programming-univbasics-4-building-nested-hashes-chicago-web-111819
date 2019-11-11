@@ -37,8 +37,8 @@ def monopoly_with_third_tier
       :names => {
         :reading_railroad => Hash.new,
         :two => Hash.new,
-        :three => "name3",
-        :four => "name4"
+        :three => Hash.new,
+        :four => Hash.new
       }
     }
   }
