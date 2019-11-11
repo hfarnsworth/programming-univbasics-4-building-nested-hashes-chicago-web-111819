@@ -34,7 +34,12 @@ def monopoly_with_third_tier
         :three => 3,
         :four => 4
       },
-      :names => Hash.new
+      :names => {
+        :one => "name1",
+        :two => "name2",
+        :three => "name3",
+        :four => "name4"
+      }
     }
   }
 end
